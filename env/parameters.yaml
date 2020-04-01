@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:chopperplain/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:chopperplain/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:chopperplain/prow:hmacToken
+segmentWriteKey: vault:chopperplain:segmentWriteKey
